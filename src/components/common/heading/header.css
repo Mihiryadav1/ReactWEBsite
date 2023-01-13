@@ -1,0 +1,98 @@
+.head {
+    padding: 20px 0;
+    color: black;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.head .icon {
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+}
+
+
+/* ********************header********************* */
+header {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 30px;
+}
+
+header ul {
+    padding: 20px 20px;
+    margin-bottom: 0;
+}
+
+.linker{
+    transition:0.5s;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+.linker:hover{
+    color: #1eb2a6;
+
+}
+
+.list {
+    list-style: none;
+}
+.start{
+    background-color: #1eb2a6;
+    padding: 30px 70px;
+    color: white;
+    clip-path: polygon(10% 0,100% 0,100% 100%,0 100%);
+}
+.toggle{
+    display:none;
+}
+
+@media screen and (max-width:768px)
+{
+    .start{
+        clip-path: none;
+
+    }   
+    header{
+        margin: 0;
+        position: relative;
+        background-color: #1eb2a6;
+
+    } 
+    header ul.flexSB{
+        display:none;
+    }
+    .toggle{
+        display: block;
+        background: none;
+        border:0px;
+        color: #fff;
+        font-size: 30px;
+        position:absolute;
+        right: 2px;
+        top: 18px;
+
+    }
+    
+    .mobile-nav{
+        position:absolute;
+        transition:0.5s;
+        top:11vh;
+        left:0;
+        width:100%;
+        background-color: black;
+       
+
+    }
+    .certify{
+        left:0px;
+    }
+
+}
