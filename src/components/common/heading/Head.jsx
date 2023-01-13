@@ -18,6 +18,7 @@ const Head = () => {
                     </div>
                 </div>
             </section>
-        </>)
+        </>
+        )
 }
 export default Head
