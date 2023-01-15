@@ -35,3 +35,128 @@
    color: white;
 
  }
+
+ .btn {
+   border: none;
+   padding: 17px 36px;
+   color: white;
+   background-color: #1eb2a6;
+   margin: 30px 10px 0 0;
+   border-radius: 3px;
+
+ }
+
+ button i {
+   margin-left: 20px;
+ }
+
+ .btn2 {
+   background-color: white;
+   color: #1eb2a6;
+ }
+
+ .btn:hover {
+   color: #1eb2a6;
+   background-color: white;
+ }
+
+ .button {
+   display: flex;
+ }
+
+ .row {
+   width: 60%;
+ }
+
+ .headings {
+   text-align: left;
+   padding: 40px 0;
+   color: white;
+ }
+
+ .headings h5 {
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #1eb2a6;
+ }
+
+ .headings h3 {
+   font-size: 45px;
+   margin-top: 20px 0px;
+   text-transform: capitalize;
+ }
+
+ p {
+   line-height: 30px;
+   font-size: 18px;
+ }
+
+ @media screen and (max-width: 768px) {
+
+   .headings h3 {
+     font-size: 50px;
+
+   }
+
+   .headings h1 {
+     font-size: 30px;
+   }
+
+   .hero {
+     background-position: right;
+     height: 100vh;
+
+   }
+
+   .container-hero {
+     padding-top: 100px;
+
+   }
+
+   .btn {
+     padding: 20px;
+     font-size: 14px;
+     margin-top: 10px;
+   }
+
+   .hero.row {
+     background-color: #1eb2a6;
+   }
+
+   .button {
+     flex-direction: column;
+
+
+   }
+
+   .row {
+     width: 100%;
+   }
+ }
+
+ @media screen and (max-width:880px) {
+   .container-hero {
+     padding-top: 150px;
+
+   }
+ }
+
+ @media screen and (max-width:800px) {
+   .hero {
+     background-position: right;
+   }
+ }
+
+ /*Numbers Css*/
+ .numberback {
+   background-image: url('./components/numbers/pen.jpg');
+   background-size: cover;
+   display: flex;
+   color:white;
+   justify-content: space-evenly;
+   padding: 40px 30px;
+ }
+ .flex-items h1{
+  font-weight:900;
+ }

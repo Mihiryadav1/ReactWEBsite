@@ -17,7 +17,7 @@ const Headers = () => {
               <a className="linker" href="/">HOME</a>
             </li>
             <li className="pe-4 list">
-              <a className="linker" href="/">ABOUT US</a>
+              <a className="linker" href="/about">ABOUT US</a>
             </li>
             <li className="pe-4 list">
               <a className="linker" href="/">TEAM</a>
@@ -37,7 +37,7 @@ const Headers = () => {
             <div className="certify">Get Certificate </div>
           </div>
           <button className="toggle" onClick={() => { setClick(!click) }}>
-            {click ? <i className="fa-solid fa-bars"></i> : <i class="fa-solid fa-xmark"></i>}
+            {click ? <i className="fa-solid fa-bars"></i> : <i className="fa-solid fa-xmark"></i>}
           </button>
         </nav>
       </header>

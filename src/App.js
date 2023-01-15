@@ -1,15 +1,18 @@
 import React from 'react'
 import "./App.css"
-import { BrowserRouter as Routes, Route } from "react-router-dom"
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import Home from "./components/home/Home"
-import Headers from "./components/common/heading/Headers"
+import About from "./components/about/About"
 function App() {
   return (
     <>
-      <Headers />
-      <Routes>
-        {/* <Route path="/" exact component={Home} /> */}
-      </Routes>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" exact element={<About />} />
+        </Routes>
+      </Router>
+    
     </>
   )
 }
