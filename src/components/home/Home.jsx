@@ -2,6 +2,7 @@ import React from 'react'
  import Hero from "./hero/Hero"
  import Headers from '../common/heading/Headers'
 import Title from "../common/title/title"
+import AboutCard from '../about/AboutCard'
 const Home = () => {
   return (
     <>
@@ -18,6 +19,9 @@ const Home = () => {
         </div>
       </section>
       <div className="margin"></div>
+       <AboutCard/>
+      
+     
     </>
   )
 }
